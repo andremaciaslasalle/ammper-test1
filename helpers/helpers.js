@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const username = import.meta.env.VITE_BELVO_SECRET_ID;
+const username = "b2aa0b91-9807-4549-ba58-41de805b1982";
 const password = "#dVDO3-V_rQijF*IMqsvcXFzPvmxviIrWNKjAHYMT4*ddNMubor9r9xoQvBNGaS#";
-const link = import.meta.env.VITE_BELVO_LINK;
+const link = "9b9ec917-0146-4c53-904e-4860cc2d437f";
 
 export const fetchTransactions = async () => {
   const credentials = btoa(`${username}:${password}`);
