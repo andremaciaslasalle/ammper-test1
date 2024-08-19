@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Highcharts from "highcharts";
-import HighchartsReact from "highcharts-react-official";
+import HighchartsReact from "highcharts-react-official";//https://github.com/highcharts/highcharts-react/blob/master/README.md
 import { fetchTransactions } from "../helpers/helpers";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
